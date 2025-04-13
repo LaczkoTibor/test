@@ -1,0 +1,102 @@
+html{
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-size: 4em;
+}
+.cal-calculator{
+    background-color: #fff;
+    border: 1px solid#000;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #000;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding:0 0 40px 0;
+    margin-top: 20px; 
+}
+.cal-calculator h3{
+    font-size: 2em;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+input[type=text]{
+    width: 50%;
+    height: 3vh;
+    font-size: 1.5em;
+    text-align: center;
+}
+input[type=text].invalid{
+    border: red solid 1px;
+}
+label{
+    font-size: 2em;
+}
+input[type=radio]{
+    height: 2vh;
+    width: 2vh;
+    accent-color: #000
+}
+.unit{
+    
+    right: 20px;
+    top: 50px;
+}
+select{
+    width: 50%;
+    height: 4vh;
+    border-radius: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+
+.resoult button{
+    width: 45%;
+    height: 4vh;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: 25px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin: 25px 0;
+    transition: .2s;
+    cursor: pointer;
+}
+.resoult button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.resoult .resoult-message{
+    border-top: 2px solid #000;
+    font-size: 3vh;
+    display: none;
+}
+.resoult .resoult-message.visible{
+    display: block;
+}
+
+.resoult .resoult-message span{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.cal-calculator .resoult .error_message{
+    border-top: 2px solid #000;
+    color: red;
+    font-size: 3vh;
+    display: none;
+}
+.cal-calculator .resoult .error_message.active{
+    display: block;
+}

@@ -100,7 +100,7 @@ select{
 .cal-calculator .resoult .error_message.active{
     display: block;
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1200px){
     .cal-calculator{
         width: 100%;
     }
